@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: envcrypto
+Version: 0.0.1
+Summary: Symetrical Encryption of Environment Variables and Data.
+Home-page: https://github.com/snowfox-dev/envcrypt.git
+Author: SnowFox
+Author-email: snowfoxdev@outlook.com
+License: UNKNOWN
+Description: # envcrypt - Symmetrical encryption of environment variables & data.
+        [link to github repo](https://github.com/snowfox-dev/envcrypt.git)
+        
+        ## Usage:
+        
+        import envcrypt
+        
+        
+        Load password env:
+        > envcrypt.load_pass()
+        
+        
+        Load key env:
+        > envcrypt.load_key()
+        
+        
+        Encrypt string or data:
+        > envcrypt.encrypt_message(x)
+        
+        
+        Decrypt string or data from encrypt_message method:
+        > decrypt_message(x)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

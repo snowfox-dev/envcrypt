@@ -3,20 +3,27 @@
 
 ## Usage:
 
-import envcrypt
+import statement:
+> import envcrypt.envcrypt as env
+
+Generate key:
+> env.generate_key()
+> Store this key in environment variable 'CS1'
+
 
 
 Load password env:
-> envcrypt.load_pass()
+> env.load_pass()
+> Password must be stored in environment variable 'CS2' to work.
 
 
 Load key env:
-> envcrypt.load_key()
-
+> env.load_key()
+> Key must be stored in enviroment variable 'CS1' to work.
 
 Encrypt string or data:
-> envcrypt.encrypt_message(x)
+> env.encrypt_message(x)
 
 
 Decrypt string or data from encrypt_message method:
-> decrypt_message(x)
+> env.decrypt_message(x)

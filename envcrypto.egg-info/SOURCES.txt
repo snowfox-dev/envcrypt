@@ -1,0 +1,8 @@
+README.md
+setup.py
+envcrypt/__init__.py
+envcrypt/envcrypt.py
+envcrypto.egg-info/PKG-INFO
+envcrypto.egg-info/SOURCES.txt
+envcrypto.egg-info/dependency_links.txt
+envcrypto.egg-info/top_level.txt
